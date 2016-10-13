@@ -1,22 +1,29 @@
-p{
+/*Styles by attribute*/
+p {
   font-size: 12pt;
 }
-#propic{
+
+/*Styles by ID*/
+#propic {
   height: 200px;
 }
-#pointer{
+
+#pointer {
   height: 200px;
 }
-#map{
+
+#map {
   width: 100%;
   height: 400px;
   visibility: hidden;
 }
+
+/*Styles by class*/
 .carousel-inner > .item > img {
-    height: 200px !important;
-    margin: auto;
+  height: 200px !important;
+  margin: auto;
 }
-.jumbotron{
+.jumbotron {
   color: white !important;
   background-color: #003163 !important;
 }
